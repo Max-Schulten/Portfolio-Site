@@ -1,0 +1,19 @@
+.button {
+    background-color: rgb(255, 181, 84) !important;
+    color: white;
+}
+
+
+.tooltip {
+    background-color: rgb(10,10,10) !important;
+    color: white !important;
+}
+
+.navlink {
+    color:  rgb(255, 181, 84) !important;
+    margin: 0.4rem;
+}
+
+.card-body {
+    color: rgb(255, 181, 84) !important;
+}
