@@ -45,7 +45,7 @@ function Projects() {
                             </CardBody>
                             <Tooltip className="tooltip" content='Visit repo'>
                                 <CardFooter as={Link} href={proj.url} className="card-footer backdrop-blur-lg bg-black/50 flex justify-center">
-                                    <FontAwesomeIcon icon={faLink} size="lg" color="white"/>
+                                    <FontAwesomeIcon icon={faLink} size="lg" color="white" />
                                 </CardFooter>
                             </Tooltip>
                         </Card>
