@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Card, CardBody, CardHeader, Divider, Link } from "@nextui-org/react"
+import { Card, CardBody, CardHeader, Link } from "@nextui-org/react"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
