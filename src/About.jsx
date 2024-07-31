@@ -9,7 +9,6 @@ function About() {
         <>
             <h1 className='text-white mt-10 text-3xl text-center'>About me.</h1>
             <h2 className='text-orange-400 mt-2 text-xl text-center'>And where I come from.</h2>
-            <h2 className='text-orange-400 mt-2 text-xl text-center'>These all link to github.</h2>
             <div className="m-10 gap-10 grid lg:grid-cols-2 sm:grid-cols-1 content-center">
                 <div className="grid grid-cols-1 gap-3 content-center grid-rows-2">
                     <Card className="bg-black/40 h-fit">
