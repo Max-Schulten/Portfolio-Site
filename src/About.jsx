@@ -9,14 +9,17 @@ function About() {
         <>
             <h1 className='text-white mt-10 text-3xl text-center'>About me.</h1>
             <h2 className='text-orange-400 mt-2 text-xl text-center'>And where I come from.</h2>
-            <div className="m-10 gap-10 grid lg:grid-cols-2 sm:grid-cols-1 content-center">
-                <div className="grid grid-cols-1 gap-3 content-center grid-rows-2">
-                    <Card className="bg-black/40 h-fit">
+            <div className="m-10 gap-10 grid lg:grid-cols-1 sm:grid-cols-1 content-center">
+                <div className="grid grid-cols-2 gap-3 content-center grid-rows-2">
+                    <Card className="bg-black40 h-fit">
                         <CardHeader className="text-white text-2xl bg-black/20">
-                            Me
+                            About Me
                         </CardHeader>
                         <CardBody className="card-body">
-                            <p>My name is Maximilian (Max) and I am a Computer Science B.S. (Concentrating in A.I.) and Mathematics B.A. candidate at Case Western Reserve University in Cleveland, OH.</p>
+                            <p>
+                                My name is Maximilian (Max) and I am a Computer Science B.S. (Concentrating in A.I.) and Mathematics B.S. candidate at Case Western Reserve University in Cleveland, OH. My primary interests are in machine learning and AI, in particular the mathematical foundations and study of these fields.
+                                I love coding and I love math.
+                            </p>
                         </CardBody>
                     </Card>
                     <Card className="bg-black/40 h-fit">
@@ -30,15 +33,6 @@ function About() {
                         </CardBody>
                     </Card>
                 </div>
-
-                <Card className="bg-black/40 h-fit">
-                    <CardHeader className="text-white text-2xl bg-black/20">
-                        A Short Bio
-                    </CardHeader>
-                    <CardBody className="card-body">
-                        I was born in Cincinnati, OH to two first generation German immigrants. I moved around a lot before high school, I spent two seperate four and two year stints respectively in Geneva, Switzerland where I attended the International School of Geneva. I also spent two years between those stints in Singapore, where I attended the Singapore American School. We eventually found our way back to Cincinnati where I completed high school. Eventually, graduating Summa Cum Laude and attending Case Western Reserve University where I&#39;ve begun pursuing my degrees&#39; in Comp. Sci. and Math.
-                    </CardBody>
-                </Card>
             </div>
         </>
     )
